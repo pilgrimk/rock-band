@@ -67,11 +67,16 @@ const Navbar = ({ toggle, band_name }) => {
                                     exact='true'
                                     offset={-80}>
                                     Tour Dates</NavLinks>
-                            </NavItem>
+                            </NavItem>                            
                             <NavItem>
-                                <NavLinks to='store'>
-                                    Store</NavLinks>
-                            </NavItem>
+                                <NavLinks to='the-band'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}>
+                                    The Band</NavLinks>
+                            </NavItem>                            
                             <NavItem>
                                 <NavLinks to='contacts'
                                     smooth={true}

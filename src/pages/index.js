@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import Music from '../components/MusicSection'
+import Band from '../components/BandSection'
 import Footer from '../components/Footer'
 import TourDates from '../components/TourDatesSection'
 
@@ -26,6 +27,7 @@ const Home = () => {
             <HeroSection />
             <Music />
             <TourDates  />
+            <Band />
             <Footer
                 band_name={band_name_value} />
         </>

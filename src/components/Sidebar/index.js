@@ -50,7 +50,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Tour Dates
           </SidebarLink>
           <SidebarLink
-            to='store'
+            to='the-band'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -58,7 +58,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Store
+            The Band
           </SidebarLink>
           <SidebarLink
             to='contacts'
